@@ -26,5 +26,20 @@ def bar_chart(plt):
   plt.xticks([i + 0.25 for i,_ in enumerate(participants)], participants)
   plt.show()  
 
+def histogram(plt):
+  grades = [83,50,44,63,83,70,75,90,100,35,15,87,88,95]
 
-bar_chart(plt)
+  histogram = Counter(grade//10 * 10 for grade in grades)
+
+  plt.bar([x for x in histogram.keys()],
+           histogram.values(),
+           8)
+  plt.axis([-5,105,0,5]) #xaxis bounds/yaxis bounds
+
+  plt.xticks([10*i for i in range(11)])
+  plt.xlabel('Grades by letter spread')
+  plt.ylabel("Distribution of grades")
+  plt.show()
+
+
+histogram(plt)

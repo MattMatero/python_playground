@@ -42,4 +42,21 @@ def histogram(plt):
   plt.show()
 
 
-histogram(plt)
+def multi_line_chart(plt):
+  variance = [1,2,4,8,16,32,64,128,256]
+  bias_squared = variance[:][::-1] #copy and reverse variance
+  total_error = [x + y for x,y in zip(variance,bias_squared)]
+
+  y = range(len(variance))
+
+  plt.plot(y, variance, 'g-', label='variance')
+  plt.plot(y, bias_squared, 'r-.', label='bias^2')
+  plt.plot(y, total_error, 'b:', label='total_error')
+
+  plt.legend(loc=9)
+  plt.xlabel("Model complexity")
+  plt.title("The bias-variance tradeoff")
+  plt.show()
+
+
+multi_line_chart(plt)

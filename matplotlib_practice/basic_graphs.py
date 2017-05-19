@@ -73,5 +73,11 @@ def scatter_plot(plt, eql_axes=False):
   plt.show()
 
 
+def pie_chart(plt):
+  plt.pie([0.95,0.05], labels=["pacman", "mouth"])
+  plt.axis("equal")
+  plt.show()
 
-scatter_plot(plt, True)
+
+
+pie_chart(plt)

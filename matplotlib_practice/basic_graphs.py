@@ -59,4 +59,19 @@ def multi_line_chart(plt):
   plt.show()
 
 
-multi_line_chart(plt)
+def scatter_plot(plt, eql_axes=False):
+  first_exam_grades = [99,90,85,97,80]
+  second_exam_grades = [100,85,60,90,70]
+
+  plt.scatter(first_exam_grades, second_exam_grades)
+  plt.xlabel("First Test Grades")
+  plt.ylabel("Second Test Grades")
+
+  if eql_axes:
+    plt.axis("equal")
+  
+  plt.show()
+
+
+
+scatter_plot(plt, True)

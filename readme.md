@@ -7,4 +7,4 @@ A repository for personal availability to quickly check small examples of fundam
 Chapters covered so far:
 
 3. [Basic visualization](https://github.com/MattMatero/python_playground/tree/master/matplotlib_practice)
-4. [Linear Algebra]()
+4. [Linear Algebra](https://github.com/MattMatero/python_playground/tree/master/linear_algebra)

@@ -70,3 +70,33 @@ def matrix_add(A,B):
   def entry_fn(i,j): return A[i][j] + B[i][j]
 
   return make_matrix(num_rows, num_cols, entry_fn)
+
+def matrix_mult(A,B):
+  A_rows,A_cols = shape(A)
+  B_rows,B_cols = shape(B)
+  if A_cols != B_rows:
+    raise ArithmeticError("cannot multiply matrices with unequal rows and cols")
+
+
+  def entry_fn(i,j): return dot(get_row(A,i), get_col(B,j))
+
+  return make_matrix(A_rows, B_rows, entry_fn)
+
+
+#some practice/examples
+def fill_matrix(i,j):
+  return i*j + 1 
+
+matrixA = make_matrix(3,3,fill_matrix)
+matrixB = make_matrix(3,3, fill_matrix)
+
+print matrixA
+print matrixB
+
+matrixC = matrix_add(matrixA, matrixB)
+
+print matrixC
+
+matrixD = matrix_mult(matrixA, matrixB)
+
+print matrixD

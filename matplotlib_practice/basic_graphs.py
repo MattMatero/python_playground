@@ -77,7 +77,3 @@ def pie_chart(plt):
   plt.pie([0.95,0.05], labels=["pacman", "mouth"])
   plt.axis("equal")
   plt.show()
-
-
-
-pie_chart(plt)

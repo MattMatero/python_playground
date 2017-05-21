@@ -87,16 +87,19 @@ def matrix_mult(A,B):
 def fill_matrix(i,j):
   return i*j + 1 
 
-matrixA = make_matrix(3,3,fill_matrix)
-matrixB = make_matrix(3,3, fill_matrix)
 
-print matrixA
-print matrixB
 
-matrixC = matrix_add(matrixA, matrixB)
+if __name__ == "__main__":
+  matrixA = make_matrix(3,3,fill_matrix)
+  matrixB = make_matrix(3,3, fill_matrix)
 
-print matrixC
+  print matrixA
+  print matrixB
 
-matrixD = matrix_mult(matrixA, matrixB)
+  matrixC = matrix_add(matrixA, matrixB)
 
-print matrixD
+  print matrixC
+
+  matrixD = matrix_mult(matrixA, matrixB)
+
+  print matrixD

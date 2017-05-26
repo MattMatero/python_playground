@@ -10,3 +10,4 @@ Chapters covered so far:
 4. [Linear Algebra](https://github.com/MattMatero/python_playground/tree/master/linear_algebra)
 5. [Statistics](https://github.com/MattMatero/python_playground/tree/master/statistics)
 6. [Probability](https://github.com/MattMatero/python_playground/tree/master/probability)
+7. [Hypothesis and Inference](https://github.com/MattMatero/python_playground/tree/master/hypothesis_and_inference)

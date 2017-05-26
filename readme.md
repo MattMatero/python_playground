@@ -9,3 +9,4 @@ Chapters covered so far:
 3. [Basic visualization](https://github.com/MattMatero/python_playground/tree/master/matplotlib_practice)
 4. [Linear Algebra](https://github.com/MattMatero/python_playground/tree/master/linear_algebra)
 5. [Statistics](https://github.com/MattMatero/python_playground/tree/master/statistics)
+6. [Probability](https://github.com/MattMatero/python_playground/tree/master/probability)

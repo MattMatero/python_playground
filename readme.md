@@ -12,3 +12,4 @@ Chapters covered so far:
 6. [Probability](https://github.com/MattMatero/python_playground/tree/master/probability)
 7. [Hypothesis and Inference](https://github.com/MattMatero/python_playground/tree/master/hypothesis_and_inference)
 8. [Gradient Descent](https://github.com/MattMatero/python_playground/tree/master/gradient_descent)
+9. [Getting Data -- skipped coding exercises for now](https://github.comMattMatero/python_playground)

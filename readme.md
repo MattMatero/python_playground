@@ -6,10 +6,11 @@ A repository for personal availability to quickly check small examples of fundam
 
 Chapters covered so far:
 
-3. [Basic visualization](https://github.com/MattMatero/python_playground/tree/master/matplotlib_practice)
-4. [Linear Algebra](https://github.com/MattMatero/python_playground/tree/master/linear_algebra)
-5. [Statistics](https://github.com/MattMatero/python_playground/tree/master/statistics)
-6. [Probability](https://github.com/MattMatero/python_playground/tree/master/probability)
-7. [Hypothesis and Inference](https://github.com/MattMatero/python_playground/tree/master/hypothesis_and_inference)
-8. [Gradient Descent](https://github.com/MattMatero/python_playground/tree/master/gradient_descent)
-9. [Getting Data -- skipped coding exercises for now](https://github.comMattMatero/python_playground)
+3.  [Basic Visualization](https://github.com/MattMatero/python_playground/tree/master/matplotlib_practice)
+4.  [Linear Algebra](https://github.com/MattMatero/python_playground/tree/master/linear_algebra)
+5.  [Statistics](https://github.com/MattMatero/python_playground/tree/master/statistics)
+6.  [Probability](https://github.com/MattMatero/python_playground/tree/master/probability)
+7.  [Hypothesis and Inference](https://github.com/MattMatero/python_playground/tree/master/hypothesis_and_inference)
+8.  [Gradient Descent](https://github.com/MattMatero/python_playground/tree/master/gradient_descent)
+9.  [Getting Data -- skipped coding exercises for now](https://github.com/MattMatero/python_playground)
+10. [Working with Data](https://github.com/MattMatero/python_playground/tree/master/working_with_data)

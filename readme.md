@@ -14,3 +14,5 @@ Chapters covered so far:
 8.  [Gradient Descent](https://github.com/MattMatero/python_playground/tree/master/gradient_descent)
 9.  [Getting Data -- skipped coding exercises for now](https://github.com/MattMatero/python_playground)
 10. [Working with Data](https://github.com/MattMatero/python_playground/tree/master/working_with_data)
+11. [Machine Learning](https://github.com/MattMatero/python_playground/tree/master/machine_learning)
+12. [K-Nearest Neighbors](https://github.com/MattMatero/python_playground/tree/master/nearest_neighbors)

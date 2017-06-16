@@ -16,3 +16,4 @@ Chapters covered so far:
 10. [Working with Data](https://github.com/MattMatero/python_playground/tree/master/working_with_data)
 11. [Machine Learning](https://github.com/MattMatero/python_playground/tree/master/machine_learning)
 12. [K-Nearest Neighbors](https://github.com/MattMatero/python_playground/tree/master/nearest_neighbors)
+13. [Naive Bayes](https://github.com/MattMatero/python_playground/tree/master/naive_bayes)
